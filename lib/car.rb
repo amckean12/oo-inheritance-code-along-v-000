@@ -3,5 +3,7 @@ require_relative "./vehicle.rb"
 
 #use the `<` to inherit the `Car` class from `Vehicle`
 class Car < Vehicle
-  
+  def go
+    "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+  end
 end
